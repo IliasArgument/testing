@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
-import { Gallery, PanelHeader } from "@vkontakte/vkui";
+import { Gallery } from "@vkontakte/vkui";
 import SwypeRight from './SwypeRight';
 
 const SwypeLeft = () => {
-     const [state, setState] = useState([
+     const [state ] = useState([
       {id: 1, title: 'left panel 1'},
       {id: 2, title: 'left panel 2'},
    
